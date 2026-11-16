@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "lastpoint",
+  "version": "${version}",
+  "name": "LastPoint",
+  "description": "Saves each player's logout position and teleports them back when they right-click a [last] sign.",
+  "authors": ["UpdateNotice"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": { "main": ["com.lastpoint.LastPointMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
